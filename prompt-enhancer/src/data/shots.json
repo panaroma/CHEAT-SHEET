@@ -1,0 +1,32 @@
+[
+  {
+    "id": "wide-shot",
+    "name": "Wide Shot (WS)",
+    "description": "Shows the subject within their surrounding environment. Great for establishing context.",
+    "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/3o7rc0qU6m5qY/giphy.gif"
+  },
+  {
+    "id": "close-up",
+    "name": "Close Up (CU)",
+    "description": "Tightly frames the subject, usually the face. Used to show emotion.",
+    "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/l0HlO4p8jB2/giphy.gif"
+  },
+  {
+    "id": "dutch-angle",
+    "name": "Dutch Angle",
+    "description": "Camera is tilted to one side. Creates a sense of disorientation or unease.",
+    "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/3o6Zt481isNVu/giphy.gif"
+  },
+  {
+    "id": "low-angle",
+    "name": "Low Angle",
+    "description": "Camera looks up at the subject. Makes the subject appear powerful or dominant.",
+    "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/xT9IgBwI5SLzZ/giphy.gif"
+  },
+  {
+    "id": "over-the-shoulder",
+    "name": "Over The Shoulder (OTS)",
+    "description": "Shot from behind the shoulder of another character. Establishes connection.",
+    "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/l2JdZz/giphy.gif"
+  }
+]
