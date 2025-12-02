@@ -50,6 +50,17 @@ function App() {
     navigator.clipboard.writeText(enhancedPrompt);
   };
 
+  const handleAddShot = (shotName: string) => {
+    setInputPrompt((prev) => {
+      const trimmed = prev.trim();
+      if (!trimmed) return shotName;
+      // Add a comma if it doesn't end with punctuation, otherwise just space
+      return /[.,;]$/.test(trimmed)
+        ? `${trimmed} ${shotName}`
+        : `${trimmed}, ${shotName}`;
+    });
+  };
+
   return (
     <div className="min-h-screen bg-black text-white p-4 md:p-8 font-sans">
       <div className="max-w-7xl mx-auto h-[calc(100vh-4rem)] flex flex-col">
@@ -92,7 +103,10 @@ function App() {
                 placeholder="Enter your basic idea here (e.g., 'A cyberpunk city at night')..."
                 className="flex-1 w-full bg-neutral-950 border border-neutral-800 rounded-lg p-4 text-neutral-200 placeholder-neutral-600 focus:ring-2 focus:ring-blue-500 outline-none resize-none"
               />
-              <div className="mt-4 flex justify-end">
+              <div className="mt-4 flex justify-between items-center">
+                <span className="text-xs text-neutral-500">
+                   Tip: Click a camera shot on the right to add it.
+                </span>
                 <button
                   onClick={handleEnhance}
                   disabled={isEnhancing || !inputPrompt.trim()}
@@ -149,7 +163,7 @@ function App() {
 
           {/* Right Column: Cheat Sheet */}
           <div className="lg:col-span-1 h-full min-h-0">
-            <CheatSheet />
+            <CheatSheet onShotClick={handleAddShot} />
           </div>
 
         </div>

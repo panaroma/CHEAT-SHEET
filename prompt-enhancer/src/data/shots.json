@@ -8,37 +8,37 @@
           "id": "extreme-wide",
           "name": "Extreme Wide Shot (EWS)",
           "description": "The subject is barely visible. Emphasizes the location/environment.",
-          "gifUrl": "https://media.giphy.com/media/xT9IgBwI5SLzZ/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/3o7rc0qU6m5qY/giphy.gif"
         },
         {
           "id": "wide-shot",
           "name": "Wide Shot (WS)",
           "description": "Subject fits fully in the frame. Shows body language and setting.",
-          "gifUrl": "https://media.giphy.com/media/3o7rc0qU6m5qY/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/l0HlO4p8jB2/giphy.gif"
         },
         {
           "id": "medium-shot",
           "name": "Medium Shot (MS)",
           "description": "Waist up. Good for dialogue and action.",
-          "gifUrl": "https://media.giphy.com/media/l0HlO4p8jB2/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/l2JdZz/giphy.gif"
         },
         {
           "id": "medium-close-up",
           "name": "Medium Close Up (MCU)",
           "description": "Chest up. Captures facial expressions while keeping some background.",
-          "gifUrl": "https://media.giphy.com/media/l2JdZz/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/3o6Zt481isNVu/giphy.gif"
         },
         {
           "id": "close-up",
           "name": "Close Up (CU)",
           "description": "Face or specific detail fills the frame. High emotion.",
-          "gifUrl": "https://media.giphy.com/media/l0HlO4p8jB2/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/xT9IgBwI5SLzZ/giphy.gif"
         },
         {
           "id": "extreme-close-up",
           "name": "Extreme Close Up (ECU)",
           "description": "Focuses on a tiny detail (eye, mouth, trigger). Intense focus.",
-          "gifUrl": "https://media.giphy.com/media/3o6Zt481isNVu/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/l0HlO4p8jB2/giphy.gif"
         }
       ]
     },
@@ -50,37 +50,37 @@
           "id": "bird-eye",
           "name": "Bird's Eye View",
           "description": "Directly overhead. Shows layout or makes subjects look insignificant.",
-          "gifUrl": "https://media.giphy.com/media/3o6Zt481isNVu/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/3o7rc0qU6m5qY/giphy.gif"
         },
         {
           "id": "high-angle",
           "name": "High Angle",
           "description": "Camera looks down. Makes subject look weak or vulnerable.",
-          "gifUrl": "https://media.giphy.com/media/xT9IgBwI5SLzZ/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/l0HlO4p8jB2/giphy.gif"
         },
         {
           "id": "eye-level",
           "name": "Eye Level",
           "description": "Neutral angle. Mimics human vision. Connects with the character.",
-          "gifUrl": "https://media.giphy.com/media/l0HlO4p8jB2/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/l2JdZz/giphy.gif"
         },
         {
           "id": "low-angle",
           "name": "Low Angle",
           "description": "Camera looks up. Makes subject look powerful or heroic.",
-          "gifUrl": "https://media.giphy.com/media/xT9IgBwI5SLzZ/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/xT9IgBwI5SLzZ/giphy.gif"
         },
         {
           "id": "worm-eye",
           "name": "Worm's Eye View",
           "description": "From the ground looking up. Extreme height/power.",
-          "gifUrl": "https://media.giphy.com/media/3o6Zt481isNVu/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/3o6Zt481isNVu/giphy.gif"
         },
         {
           "id": "dutch-angle",
           "name": "Dutch Angle",
           "description": "Tilted horizon. Creates uneasiness, tension, or disorientation.",
-          "gifUrl": "https://media.giphy.com/media/3o6Zt481isNVu/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/3o6Zt481isNVu/giphy.gif"
         }
       ]
     },
@@ -92,43 +92,43 @@
           "id": "pan",
           "name": "Pan",
           "description": "Camera swivels horizontally from a fixed point.",
-          "gifUrl": "https://media.giphy.com/media/l0HlO4p8jB2/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/l0HlO4p8jB2/giphy.gif"
         },
         {
           "id": "tilt",
           "name": "Tilt",
           "description": "Camera swivels vertically from a fixed point.",
-          "gifUrl": "https://media.giphy.com/media/xT9IgBwI5SLzZ/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/xT9IgBwI5SLzZ/giphy.gif"
         },
         {
           "id": "dolly",
           "name": "Dolly In/Out",
           "description": "Camera physically moves towards or away from subject.",
-          "gifUrl": "https://media.giphy.com/media/3o7rc0qU6m5qY/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/3o7rc0qU6m5qY/giphy.gif"
         },
         {
           "id": "truck",
           "name": "Truck",
           "description": "Camera physically moves sideways (parallel to action).",
-          "gifUrl": "https://media.giphy.com/media/l2JdZz/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/l2JdZz/giphy.gif"
         },
         {
           "id": "pedestal",
           "name": "Pedestal",
           "description": "Camera physically moves up or down.",
-          "gifUrl": "https://media.giphy.com/media/xT9IgBwI5SLzZ/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/xT9IgBwI5SLzZ/giphy.gif"
         },
         {
           "id": "handheld",
           "name": "Handheld",
           "description": "Shaky, raw motion. Adds realism or chaos.",
-          "gifUrl": "https://media.giphy.com/media/3o6Zt481isNVu/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/3o6Zt481isNVu/giphy.gif"
         },
         {
           "id": "steadicam",
           "name": "Steadicam/Gimbal",
           "description": "Smooth, floating motion following the action.",
-          "gifUrl": "https://media.giphy.com/media/l0HlO4p8jB2/giphy.gif"
+          "gifUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5Z3l5/l0HlO4p8jB2/giphy.gif"
         }
       ]
     }

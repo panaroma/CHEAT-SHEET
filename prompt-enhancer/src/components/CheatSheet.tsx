@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import shotsData from '../data/shots.json';
-import { Camera, ChevronDown, ChevronRight } from 'lucide-react';
+import { Camera, ChevronDown, ChevronRight, PlusCircle } from 'lucide-react';
 
 interface Shot {
   id: string;
@@ -15,7 +15,11 @@ interface Category {
   items: Shot[];
 }
 
-export const CheatSheet: React.FC = () => {
+interface CheatSheetProps {
+  onShotClick: (shotName: string) => void;
+}
+
+export const CheatSheet: React.FC<CheatSheetProps> = ({ onShotClick }) => {
   const [hoveredShot, setHoveredShot] = useState<Shot | null>(null);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set(['sizes', 'angles', 'movement']));
@@ -33,9 +37,7 @@ export const CheatSheet: React.FC = () => {
   };
 
   const handleMouseMove = (e: React.MouseEvent, shot: Shot) => {
-    // Calculate position to keep tooltip on screen
-    // We want it to the left of the cursor if we are on the right side of the screen
-    const x = e.clientX - 290; // Show to the left of cursor
+    const x = e.clientX - 290;
     const y = e.clientY - 100;
     setPosition({ x, y });
     setHoveredShot(shot);
@@ -69,18 +71,18 @@ export const CheatSheet: React.FC = () => {
             {expandedCategories.has(category.id) && (
               <div className="space-y-1 mt-1">
                 {category.items.map((shot) => (
-                  <div
+                  <button
                     key={shot.id}
-                    className="group relative px-3 py-2 rounded-lg hover:bg-neutral-800 cursor-help transition-all"
+                    className="w-full text-left group relative px-3 py-2 rounded-lg hover:bg-neutral-800 cursor-pointer transition-all flex justify-between items-center"
                     onMouseMove={(e) => handleMouseMove(e, shot)}
                     onMouseLeave={handleMouseLeave}
+                    onClick={() => onShotClick(shot.name)}
                   >
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-neutral-400 group-hover:text-neutral-200 transition-colors">
-                        {shot.name}
-                      </span>
-                    </div>
-                  </div>
+                    <span className="text-sm text-neutral-400 group-hover:text-neutral-200 transition-colors">
+                      {shot.name}
+                    </span>
+                    <PlusCircle className="w-4 h-4 text-neutral-500 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  </button>
                 ))}
               </div>
             )}
@@ -93,8 +95,8 @@ export const CheatSheet: React.FC = () => {
         <div
           className="fixed z-50 pointer-events-none bg-black rounded-lg shadow-2xl border border-neutral-700 w-72 overflow-hidden"
           style={{
-            left: Math.max(10, position.x), // Prevent going off left edge
-            top: Math.max(10, Math.min(position.y, window.innerHeight - 250)) // Keep vertically in bounds
+            left: Math.max(10, position.x),
+            top: Math.max(10, Math.min(position.y, window.innerHeight - 250))
           }}
         >
           <div className="relative aspect-video bg-neutral-800">
